@@ -18,8 +18,11 @@
 2.2 reading input data( how? )
 
    -cout<<"please enter your weight";
+   
    -cin>>user_weight;
+   
    -cout<<"please enter your height";
+   
    -cin>>user_height;
 
 2.3 perform operation- finding the BMI(how?)
