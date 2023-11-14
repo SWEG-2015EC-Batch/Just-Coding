@@ -1,12 +1,9 @@
 1) Problem analysis
 1.1) Input: weight,height
 1.2) output: BMI
-1.3) process : Variable declaration
-             : Read the input data
-             : Calculate BMI=weight/
-               (height*height)
-             : print output and process result 
-               (BMI)
+1.3) process : Variable declaration,Read the input data, Calculate BMI=weight/
+(height*height),Print output and process result 
+(BMI)
 2) Design the program 
 2.1) Variable declaration (what and how)
     - float weight, height,BMI
