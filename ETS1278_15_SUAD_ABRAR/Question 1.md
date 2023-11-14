@@ -6,7 +6,7 @@
    - Read the input data
    - Calculate BMI=weight/(height*height)
    - Print output and process result (BMI)
-2) Design the program
+3) Design the program
    2.1) Variable declaration (what and how): float weight, height,BMI
    2.2) Reading input data (how?)
    - cout<<"enter weight";
