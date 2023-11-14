@@ -13,23 +13,23 @@
 
 2.1 variable declaration( what and how? )
 
-   -float user_weight,user_height,user_BMI;
+   - float user_weight,user_height,user_BMI;
 
 2.2 reading input data( how? )
 
-   -cout<<"please enter your weight";
+   - cout<<"please enter your weight";
    
-   -cin>>user_weight;
+   - cin>>user_weight;
    
-   -cout<<"please enter your height";
+   - cout<<"please enter your height";
    
-   -cin>>user_height;
+   - cin>>user_height;
 
 2.3 perform operation- finding the BMI(how?)
 
-   -user_BMI=user_weight/(user_height*user_height);
+   - user_BMI=user_weight/(user_height*user_height);
 
 2.4 print result(BMI) (how?)
 
-   -cout<<"Body Mass Index(BMI) of user is ";
-   -cout<<user_BMI;
+   - cout<<"Body Mass Index(BMI) of user is ";
+   - cout<<user_BMI;
