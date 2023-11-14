@@ -11,7 +11,7 @@ int main(){
     cout<<"please enter height ";
     cin>>user_height;
     user_BMI=user_weight/(user_height*user_height);
-    cout<<"BMI of user is ";
+    cout<<"Body Mass Index(BMI) of user is ";
     cout<<user_BMI;
 	return 0;
 }
