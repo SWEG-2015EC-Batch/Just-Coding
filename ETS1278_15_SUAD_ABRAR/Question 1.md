@@ -5,8 +5,7 @@
 (height*height),Print output and process result 
 (BMI)
 2) Design the program 
-2.1) Variable declaration (what and how)
-    - float weight, height,BMI
+2.1) Variable declaration (what and how): float weight, height,BMI
 2.2) Reading input data (how?)
     -cout<<"enter weight";
     -cin>>weight;
