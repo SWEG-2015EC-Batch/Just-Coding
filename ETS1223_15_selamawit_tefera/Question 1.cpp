@@ -1,4 +1,4 @@
-// Print BMI
+// Print Body Mass Index(BMI)
 #include<iostream>
 using namespace std;
 
