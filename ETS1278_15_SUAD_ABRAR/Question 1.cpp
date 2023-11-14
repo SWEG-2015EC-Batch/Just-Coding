@@ -1,4 +1,4 @@
-//Print Size of Fundamental Types
+//Print BMI
 #include <iostream>
 using namespace std;
 
