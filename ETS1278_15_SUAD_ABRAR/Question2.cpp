@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-float mineage, capacity;
-cout<<"please enter the mineage";
-cin>>mineage;
-cout<<"please enter the capacity(in gallons)";
-cin>>capacity(in gallons);
-cout<<"The miles the automobile can be driven without refueling is "<<mineage*capacity (in gallons)<<endl;
+float mileage, capacity;
+cout<<"please enter the mileage";
+cin>>mileage;
+cout<<"please enter the capacity of the fuel tank (in gallons)";
+cin>>capacity;
+cout<<"The miles the automobile can be driven without refueling is "<<mileage*capacity<<endl;
 return 0;
 } 
