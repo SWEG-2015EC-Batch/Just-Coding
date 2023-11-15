@@ -20,6 +20,7 @@
    - cin>>capacity (in gallons);
      
    2.3) Perform operation- finding the BMI(how?)
+   
     length (in miles)=mineage*capacity (in gallons)
 
    2.4) print result(BMI) (how?)
