@@ -1,7 +1,7 @@
 
 
 1.1 INPUT
-A character value
+-A character value
 
 1.2 OUTPUT
 Changed character value
