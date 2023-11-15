@@ -14,9 +14,9 @@
    2.1) Variable declaration (what and how): float weight, height,BMI
    
    2.2) Reading input data (how?)
-   - cout<<"enter weight";
+   - cout<<"enter weight(in kg)";
    - cin>>weight;
-   - cout<<"enter height";
+   - cout<<"enter height(in meter)";
    - cin>>height;
      
    2.3) Perform operation- finding the BMI(how?)
