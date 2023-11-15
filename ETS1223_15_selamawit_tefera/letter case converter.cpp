@@ -1,4 +1,4 @@
-//This program takes a user-inputted letter and converts it to its uppercase or lowercase equivalent, or displays an error message if the input is not a letter.
+//This program converts a letter to its uppercase or lowercase equivalent
 #include <iostream>
 #include <ctype.h>
 using namespace std;
