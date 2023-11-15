@@ -3,14 +3,11 @@
 using namespace std;
 
 int main(){
-float weight,
-height,
-BMI;
+float weight, height, BMI;
 cout<<"enter the weight";
 cin>>weight;
 cout<<"enter the height";
 cin>>height;
-BMI=weight/(height*height);
-cout<<"Body mass index(BMI) of a person is "<<BMI <<endl;
+cout<<"Body mass index(BMI) of a person is "<<weight/(height*height)<<endl;
 return 0;
 } 
