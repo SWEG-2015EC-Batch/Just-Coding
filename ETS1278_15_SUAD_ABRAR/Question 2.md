@@ -24,5 +24,6 @@
     length (in miles)=mineage*capacity (in gallons)
 
    2.4) print result(BMI) (how?)
+   
     cout<<"The miles the automobile can be driven without refueling is "<<mineage*capacity (in gallons)<<endl;
                 
