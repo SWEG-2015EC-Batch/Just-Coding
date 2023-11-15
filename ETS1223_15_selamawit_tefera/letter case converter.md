@@ -18,7 +18,6 @@ Use case changing functions from ctype standard library - toupper(char) and tolo
 -exit successfully
 
 3. ALGORITHM
-
 -start
 -read a character from the keyboard
 -check if a valid character. Only alphabetic -characters are accepted.
