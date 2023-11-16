@@ -21,7 +21,7 @@
      
    2.3) Perform operation- finding the distance (in miles)(how?)
    
-    length (in miles)=mineage*capacity (in gallons)
+    distance (in miles)=mineage*capacity (in gallons)
 
    2.4) print result(in miles) (how?)
    
