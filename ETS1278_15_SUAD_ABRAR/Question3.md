@@ -12,9 +12,11 @@
 
 2. Design the program
    
-   2.1) char letter;
+   2.1) Variable declaration
+         char letter;
 
-   2.2) cout<<"please enter a letter";
+   2.2) Read input
+        cout<<"please enter a letter";
         cin>>a letter
 
    2.3) convert the case  if (islower(letter)) {
