@@ -13,9 +13,11 @@
 2. Design the program
    
    2.1) Variable declaration
+
          char letter;
 
    2.2) Read input
+
         cout<<"please enter a letter";
         cin>>a letter
 
