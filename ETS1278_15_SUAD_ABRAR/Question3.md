@@ -1,4 +1,17 @@
 1. problem analysis
 
-   1.1) Input
+   1.1) Input: a letter
    
+   1.2) output: converted letter (to its upper case or lower case equivalent) 
+
+   1.3) process
+   - Variable declaration
+   - Read Input (a letter)
+   - Convert the letter to its uppercase or lowercase equivalent according to the input
+   - print the converted letter
+
+2. Design the program
+   2.1) char letter;
+   2.2) cout<<"please enter a letter";
+        cin>>a letter
+   2.3) convert the case 
