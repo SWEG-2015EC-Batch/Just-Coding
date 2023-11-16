@@ -17,4 +17,12 @@
    2.2) cout<<"please enter a letter";
         cin>>a letter
 
-   2.3) convert the case 
+   2.3) convert the case  if (islower(letter)) {
+       char upperCaseLetter = toupper(letter);
+        cout << "Upper case equivalent " << upperCaseLetter <<endl;
+    } else if (isupper(letter)) {
+        char lowerCaseLetter = tolower(letter);
+        cout << "Lower case equivalent " << lowerCaseLetter <<endl;
+    } else {
+        cout << "Invalid input please enter a letter" <<endl;
+        }
