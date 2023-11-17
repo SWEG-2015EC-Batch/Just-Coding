@@ -19,7 +19,7 @@ workingHours, bonusRatePerHour, baseSalary
 
    2.1) Variable declaration (what and how?):
 
- float workingHours, bonusRatePerHour, baseSalary
+    float workingHours, bonusRatePerHour, baseSalary
 
    2.2) Constant definition (what and how?)
 
@@ -28,6 +28,7 @@ workingHours, bonusRatePerHour, baseSalary
     const float taxRate = 0.15;
 
    2.3) Reading input data (how?) 
+
     cout << "Please enter working hours: ";
 
     cin >> workingHours;
