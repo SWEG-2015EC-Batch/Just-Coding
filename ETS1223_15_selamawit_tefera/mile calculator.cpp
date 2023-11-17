@@ -9,7 +9,7 @@ int main(){
     cin >> capacity;
     cout << "please enter the miles per gallon ratio of the automobile: " << endl;
     cin >> miles_pergallom;
-    cout << "the automobile  can be driven " << (capacity * miles_pergallom) << " miles without refueling." << endl;
+    cout << "the automobile  can be driven " << (capacity * miles_pergallom) << "miles without refueling." << endl;
 
     return 0;
 }
