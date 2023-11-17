@@ -1,4 +1,4 @@
-//Print mile calculator
+//Mile calculator
 #include <iostream>
 using namespace std;
 
