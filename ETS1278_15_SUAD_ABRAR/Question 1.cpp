@@ -1,4 +1,4 @@
-//Print BMI  
+//BMI calculator 
 #include <iostream>
 using namespace std;
 
