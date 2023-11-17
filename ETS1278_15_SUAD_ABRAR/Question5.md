@@ -17,7 +17,7 @@ workingHours, bonusRatePerHour, baseSalary
 
 2) Design the program
 
-   2.1) Variable declaration (what and how?):
+  2.1) Variable declaration (what and how?):
 
  float workingHours, bonusRatePerHour, baseSalary
 
