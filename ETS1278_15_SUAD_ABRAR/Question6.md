@@ -8,9 +8,7 @@
 
    - Variable declaration
 
-   - Compute transmissionTime using the given
-
-terms (fileSize and transmissionRate)
+   - Compute transmissionTime using the given terms (fileSize and transmissionRate)
 
    - print result
 
