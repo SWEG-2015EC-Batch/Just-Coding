@@ -3,7 +3,6 @@
 //transmissionrate is in character per second
 #include <iostream>
 using namespace std;
-
 int main()
 { 
 int fileSize=400*1024*1024; 
