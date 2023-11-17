@@ -21,3 +21,11 @@
        int transmissionRate = 960; 
 
        int transmissionTime = (fileSize/transmissionRate);
+
+   2.2) No input data
+  
+   2.3) Perform operation and print the result
+
+       cout << "The file size is " << fileSize << " bytes" << endl;
+       cout<<"The transmission line will take " << transmissionTime << " seconds to send a file." <<endl;
+
