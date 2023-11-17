@@ -16,7 +16,7 @@
    
    2.1) Variable declaration (what and how):
 
- float weight, height,BMI
+       float weight, height,BMI
    
     2.2) Reading input data (how?)
 
