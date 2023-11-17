@@ -16,8 +16,8 @@
 
    2.1) Variable declaration
 
-     int fileSize = 400*(1024*1024); 
+       int fileSize = 400*(1024*1024); 
 
-     int transmissionRate = 960; 
+       int transmissionRate = 960; 
 
-     int transmissionTime = (fileSize/transmissionRate);
+       int transmissionTime = (fileSize/transmissionRate);
