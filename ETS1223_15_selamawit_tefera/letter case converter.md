@@ -12,17 +12,23 @@
 
 2. PROGRAM DESIGN
 
--start
+-variable declaration and initialization 
 
--declare two character variables, one for input and another for changed value
+-char letter;
 
--check if the value is in [a-z] or [A-Z] range. Use isalpha(char) cctype.h. If not display error message and exit
+-reading input data
 
--flip the case by using toupper() and tolower() functions.
+-cout<<"Enter a letter: ";
 
--print the changed value
+-cin>>letter;
 
--exit successfully
+-perform operation 
+
+-if(isupper(letter)) {cout<<"lowercase: "<<char(tolower(letter))<<endl;}
+
+-else if (islower(letter)) {cout<<"uppercase: "<<char(toupper(letter))<<endl;}
+
+-else {cout<<"Not a letter "<<endl;}
 
 3. ALGORITHM
 
