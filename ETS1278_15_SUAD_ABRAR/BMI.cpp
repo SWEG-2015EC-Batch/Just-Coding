@@ -10,4 +10,4 @@ cout<<"enter the height";
 cin>>height;
 cout<<"Body mass index(BMI) of a person is "<<weight/(height*height)<<endl;
 return 0;
-} 
+}  
