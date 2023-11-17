@@ -18,15 +18,15 @@
 
 -reading input data
 
--cout<<"Enter a letter: ";
+-cout<<"Enter a letter ";
 
 -cin>>letter;
 
 -perform operation 
 
--if(isupper(letter)) {cout<<"lowercase: "<<char(tolower(letter))<<endl;}
+-if(isupper(letter)) {cout<<"lowercase "<<char(tolower(letter))<<endl;}
 
--else if (islower(letter)) {cout<<"uppercase: "<<char(toupper(letter))<<endl;}
+-else if (islower(letter)) {cout<<"uppercase "<<char(toupper(letter))<<endl;}
 
 -else {cout<<"Not a letter "<<endl;}
 
@@ -36,7 +36,7 @@
 
 -read a character from the keyboard
 
--check if a valid character. Only alphabetic characters are accepted.
+-check if a valid character Only alphabetic characters are accepted.
 
 -convert the case.
 
