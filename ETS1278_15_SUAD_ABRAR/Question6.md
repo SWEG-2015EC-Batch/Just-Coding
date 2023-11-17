@@ -14,4 +14,10 @@
 
 2) Design the program
 
-   2.1) 
+   2.1) Variable declaration
+
+   int fileSize = 400*(1024*1024); 
+
+   int transmissionRate = 960; 
+
+   int transmissionTime = (fileSize/transmissionRate);
