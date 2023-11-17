@@ -19,7 +19,7 @@ workingHours, bonusRatePerHour, baseSalary
 
   2.1) Variable declaration (what and how?):
 
- float workingHours, bonusRatePerHour, baseSalary
+    float workingHours, bonusRatePerHour, baseSalary
 
    2.2) Constant definition (what and how?)
 
