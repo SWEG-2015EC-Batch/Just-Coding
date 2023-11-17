@@ -1,4 +1,4 @@
-//Print x^y
+//A program to compute the expression x^y
 #include <iostream>
 using namespace std;
 
