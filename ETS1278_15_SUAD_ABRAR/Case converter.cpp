@@ -1,4 +1,4 @@
-//case converter 
+//Case converter program 
 #include <iostream>
 #include <ctype.h>
 using namespace std;
