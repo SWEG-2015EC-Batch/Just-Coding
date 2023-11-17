@@ -14,19 +14,20 @@ workingHours, bonusRatePerHour, baseSalary
    - Read the input data
    - Calculate grossSalary, bonusPayment,net salary 
    - Print the outputs 
+
 2) Design the program
 
      2.1) Variable declaration (what and how?):
 
  float workingHours, bonusRatePerHour, baseSalary
 
-     2.2) Constant definition (what and how?)
+    2.2) Constant definition (what and how?)
 
  const float pensionRate = 0.05;
 
  const float taxRate = 0.15;
 
-     2.3) Reading input data (how?) 
+    2.3) Reading input data (how?) 
     cout << "Please enter working hours: ";
 
     cin >> workingHours;
@@ -39,7 +40,7 @@ workingHours, bonusRatePerHour, baseSalary
 
     cin >> baseSalary;
 
-     2.4) Perform operation (how?)
+    2.4) Perform operation (how?)
 
     float grossSalary = (workingHours * bonusRatePerHour) + baseSalary;
 
@@ -51,7 +52,7 @@ workingHours, bonusRatePerHour, baseSalary
 
     float netSalary = grossSalary - pension - tax + bonusPayment;
 
-     2.5) Print the outputs (how?)
+    2.5) Print the outputs (how?)
  
 cout << "Gross Salary: " << grossSalary<<"$"<< endl;
 
