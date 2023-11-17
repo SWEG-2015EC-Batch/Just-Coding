@@ -18,7 +18,7 @@
    
    2.1) Variable declaration (what and how):
 
- float mileage, capacity
+       float mileage, capacity
    
    2.2) Reading input data (how?)
        cout<<"please enter mileage";
