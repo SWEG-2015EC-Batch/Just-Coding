@@ -43,13 +43,13 @@ PROBLEM: Write a program to calculate the value of x raised to y when x and y ar
 
 3. ALGORITHM
 
--start
+- start
 
--read x (base),y(exponent)
+- read x (base),y(exponent)
 
--calculate result= pow(x,y)
+- calculate result= pow(x,y)
 
--print result
+- print result
 
--end
+- end
 
