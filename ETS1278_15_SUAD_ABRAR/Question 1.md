@@ -18,7 +18,7 @@
 
  float weight, height,BMI
    
-   2.2) Reading input data (how?)
+    2.2) Reading input data (how?)
 
        cout<<"enter weight(in kg)";
  
@@ -28,11 +28,11 @@
 
        cin>>height;
      
-   2.3) Perform operation- finding the BMI(how?)
+    2.3) Perform operation- finding the BMI(how?)
 
- BMI=weight/(height*height)
+       BMI=weight/(height*height)
 
-   2.4) print result(BMI) (how?)
+    2.4) print result(BMI) (how?)
 
- cout<<"Body Mass Index(BMI) of a person is "<<BMI<<endl;
+       cout<<"Body Mass Index(BMI) of a person is "<<BMI<<endl;
                 
