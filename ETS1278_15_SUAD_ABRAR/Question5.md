@@ -40,3 +40,22 @@ workingHours, bonusRatePerHour, baseSalary
     cin >> baseSalary;
 
    2.4) Perform operation (how?)
+
+    float grossSalary = (workingHours * bonusRatePerHour) + baseSalary;
+
+    float bonusPayment = grossSalary - baseSalary;
+
+    float pension = grossSalary * pensionRate;
+
+    float tax = grossSalary * taxRate;
+
+    float netSalary = grossSalary - pension - tax + bonusPayment;
+
+    2.5) Print the outputs (how?)
+ 
+cout << "Gross Salary: " << grossSalary<<"$"<< endl;
+
+    cout << "Bonus Payment: " << bonusPayment<<"$"<< endl;
+
+    cout << "Net Salary: " << netSalary<<"$"<< endl;
+
