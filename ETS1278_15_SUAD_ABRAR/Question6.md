@@ -11,7 +11,7 @@
    - Compute transmissionTime using the given
 
 terms (fileSize and transmissionRate)
-  
+
    - print result
 
 2) Design the program
