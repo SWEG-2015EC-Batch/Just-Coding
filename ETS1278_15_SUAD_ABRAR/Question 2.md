@@ -16,22 +16,24 @@
 
 2) Design the program
    
-   2.1) Variable declaration (what and how): float mileage, capacity
+   2.1) Variable declaration (what and how):
+
+ float mileage, capacity
    
    2.2) Reading input data (how?)
-      cout<<"please enter mileage";
+       cout<<"please enter mileage";
 
-      cin>>mileage;
+       cin>>mileage;
 
-      cout<<"please enter the capacity of the fuel tank (in gallons)";
+       cout<<"please enter the capacity of the fuel tank (in gallons)";
 
-      cin>>capacity;
+       cin>>capacity;
      
    2.3) Perform operation- finding the distance (in miles)(how?)
    
-      distance (in miles)=mineage*capacity (in gallons)
+       distance (in miles)=mineage*capacity (in gallons)
 
    2.4) print result(in miles) (how?)
    
-      cout<<"The miles the automobile can be driven without refueling is "<<mineage*capacity<<endl;
+       cout<<"The miles the automobile can be driven without refueling is "<<mineage*capacity<<endl;
                 
