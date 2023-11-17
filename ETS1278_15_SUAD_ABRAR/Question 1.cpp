@@ -1,4 +1,4 @@
-//Print BMI 
+//Print BMI  
 #include <iostream>
 using namespace std;
 
