@@ -54,18 +54,7 @@
 - end
 
 
-Algorithm: Flowchart
 
-graph LR;
-id1([Start]);
-id2[/Read x, y/];
-id3(power =x^y);
-id4[/Print power/];
-id5([End]);
-id1-->id2;
-id2-->id3;
-id3-->id4;
-id4-->id5;
 
 
 
