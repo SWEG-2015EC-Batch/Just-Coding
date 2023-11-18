@@ -29,3 +29,35 @@ Transmission rate in characters per second
 - Print transmissionTime result 
 
 - End
+
+
+3. Algorithm
+
+   - Start 
+
+   - Input file size in MB
+
+   - Convert file size to bytes = size \* 1024 \* 1024 
+   - Input transmission rate in characters per second
+   - Calculate transmission time = file size in bytes/transmission rate 
+
+   - Print transmission time
+
+   - End
+
+Algorithm- Flowchart
+
+```mermaid
+graph LR;
+id1([Start]);
+id2[/Read file size/];
+id3(file size= size \* 1024 \* 1024);
+id4(time = file size / 960);
+id5[/Print time/];
+id6([End]);
+id1-->id2;
+id2-->id3;
+id3-->id4;
+id4-->id5;
+id5-->id6;
+```
