@@ -8,4 +8,20 @@
 
 1.3Process: Calculate maximum miles = Fuel tank capacity * mileage
 
-2.
+2. Program Design
+
+- variable declaration for fileSize, transmissionRate, transmissionTime variable 
+
+- Input fileSize in MB 
+
+- Convert fileSize to bytes 
+
+- Set transmissionRate value
+
+- Calculate transmissionTime = fileSize / transmissionRate 
+
+- Print transTime result 
+
+- End
+
+3.
