@@ -26,4 +26,33 @@
 
 - End
 
-3.
+3. Algorithm
+
+- Start 
+
+- Prompt user to input fuel tank capacity 
+
+- Read fuel tank capacity input
+
+- Prompt user to input mileage
+
+- Read mileage input
+
+- Calculate miles = fuel tank capacity * mileage
+
+- Print miles 
+
+- End
+
+Algorithm: Flowchart
+
+graph LR;
+id1([Start]);
+id2[/Read capacity, mileage/];
+id3(distance= capacity * mileage);
+id4[/Print miles/];
+id5([End]);
+id1-->id2;
+id2-->id3;
+id3-->id4;
+id4-->id5;
