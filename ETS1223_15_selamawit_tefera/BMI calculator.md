@@ -33,7 +33,14 @@
 
    - cout<<"Body Mass Index(BMI) of user is ";
    - cout<<user_BMI;
-
+   - 
+3. Algorithm
+  - Start
+  - Read weight and height
+  - Calculate BMI = weight/(height\*height)
+  - print BMI
+  - End
+    
 Algorithm(flowchart)
 
 ```mermaid
