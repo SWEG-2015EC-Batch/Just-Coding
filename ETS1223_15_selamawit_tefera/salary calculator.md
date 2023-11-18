@@ -10,3 +10,5 @@ write a program to calculate an employee's gross and net salary based on hours w
     Calculate pension = PENSION_RATE * Gross salary
     Calculate net salary = Gross salary - Tax - Pension
     Outputs: Employee name, Gross salary, Net    salary, Bonus amount
+
+2. 
