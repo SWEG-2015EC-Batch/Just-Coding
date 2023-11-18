@@ -43,6 +43,9 @@
 -print the converted character value.
 
 -end
+
+algorithm: flowchart
+
 graph LR;
 id1([Start]);
 id2[/Read letter/];
