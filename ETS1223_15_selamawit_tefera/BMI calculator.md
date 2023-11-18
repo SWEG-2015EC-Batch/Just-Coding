@@ -33,8 +33,9 @@
 
    - cout<<"Body Mass Index(BMI) of user is ";
    - cout<<user_BMI;
+
 Algorithm(flowchart)
-Algorithm: Flowchart
+
 ```mermaid
 graph LR;
 id1([Start]);
