@@ -5,10 +5,15 @@
 1.2 output: employee name, gross salary, net salary, bonus amount
 
 1.3 process: calculate gross salary= base + bonus
+
     Calculate bonus = Weekly hours * Bonus rate
+    
     Calculate tax = TAX_RATE * Gross salary
+    
     Calculate pension = PENSION_RATE * Gross salary
+    
     Calculate net salary = Gross salary - Tax - Pension
+    
     Outputs: Employee name, Gross salary, Net    salary, Bonus amount
 
 2. Program Design
@@ -40,9 +45,13 @@
    - Input base salary
 
    - Calculate bonus = weekly hours * bonus rate
+     
    - Calculate gross salary = base salary + bonus
+     
    - Calculate tax = TAX\_RATE * gross salary
+     
    - Calculate pension = PENSION_RATE * gross salary
+     
    - Calculate net salary = gross salary - tax – pension
 
    - Print employee name, gross salary, net salary, bonus
