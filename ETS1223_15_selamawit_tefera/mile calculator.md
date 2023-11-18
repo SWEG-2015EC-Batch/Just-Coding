@@ -47,12 +47,21 @@
 Algorithm: Flowchart
 
 graph LR;
+
 id1([Start]);
+
 id2[/Read capacity, mileage/];
+
 id3(distance= capacity * mileage);
+
 id4[/Print miles/];
+
 id5([End]);
+
 id1-->id2;
+
 id2-->id3;
+
 id3-->id4;
+
 id4-->id5;
