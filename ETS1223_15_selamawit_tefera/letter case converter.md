@@ -43,3 +43,27 @@
 -print the converted character value.
 
 -end
+graph LR;
+id1([Start]);
+id2[/Read letter/];
+id3{Is uppercase?};
+id4{Is uppercase?};
+id5(To lowercase);
+id6(To uppercase);
+id7[/Print character/];
+id8[/Print Not a letter/];
+id9[/Print Not a letter/];
+id10([End]);
+id1-->id2;
+id2-->id3;
+id2-->id4;
+id3--yes-->id5;
+id4--yes-->id6;
+id5-->id7;
+id6-->id7;
+id3--no-->id8;
+id4--no-->id9;
+id7-->id10;
+id8-->id10;
+id9-->id10;
+
