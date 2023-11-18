@@ -4,23 +4,25 @@
 
 1.1 Inputs: Fuel tank capacity (gallons), mileage (miles per gallon) 
 
-1.2 Output: Maximum miles 
+1.2 Output: miles 
 
-1.3Process: Calculate maximum miles = Fuel tank capacity * mileage
+1.3Process: Calculate miles = Fuel tank capacity * mileage
 
 2. Program Design
 
-- variable declaration for fileSize, transmissionRate, transmissionTime variable 
+- variable declaration for fuel tank capacity, mileage, miles 
 
-- Input fileSize in MB 
+- Print "Enter fuel tank capacity (gallons):" 
 
-- Convert fileSize to bytes 
+- Read user input for fuel tank capacity 
 
-- Set transmissionRate value
+- Print "Enter mileage (mpg):"
 
-- Calculate transmissionTime = fileSize / transmissionRate 
+- Read user input for mileage 
 
-- Print transTime result 
+- Calculate miles = fuel tank capacity * mileage 
+
+- Print output prompt message (" miles: ") and process result (miles).
 
 - End
 
