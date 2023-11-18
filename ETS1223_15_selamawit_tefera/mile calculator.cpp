@@ -9,7 +9,7 @@ int main(){
     cin >> capacity;
     cout << "please enter the mileage of the automobile: " << endl;
     cin >> mileage;
-    cout << "the automobile  can be driven " << (capacity * mileage) << " miles without refueling." << endl;
+    cout << "the automobile  can be driven " << (capacity * mileage) << "miles without refueling." << endl;
 
     return 0;
 }
