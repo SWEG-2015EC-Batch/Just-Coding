@@ -1,4 +1,4 @@
-write a program to calculate an employee's gross and net salary based on hours worked, bonus rate, base salary, tax rate,and pention rate.
+- write a program to calculate an employee's gross and net salary based on hours worked, bonus rate, base salary, tax rate,and pention rate.
 
 1.1 input: employee name, weekly working hour, bonus rate per hour, base salary
 
