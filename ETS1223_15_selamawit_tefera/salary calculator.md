@@ -5,4 +5,8 @@ write a program to calculate an employee's gross and net salary based on hours w
 1.2 output: employee name, gross salary, net salary, bonus amount
 
 1.3 process: calculate gross salary= base + bonus
-    c
+    Calculate bonus = Weekly hours * Bonus rate
+    Calculate tax = TAX_RATE * Gross salary
+    Calculate pension = PENSION_RATE * Gross salary
+    Calculate net salary = Gross salary - Tax - Pension
+    Outputs: Employee name, Gross salary, Net    salary, Bonus amount
