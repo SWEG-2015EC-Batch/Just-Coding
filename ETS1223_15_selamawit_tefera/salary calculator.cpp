@@ -1,4 +1,4 @@
-// This program salary details of an employee
+// This program finds salary details of an employee
 #include <iostream>
 #include <string>
 using namespace std;
