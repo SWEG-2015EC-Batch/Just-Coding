@@ -14,5 +14,18 @@ Transmission rate in characters per second
 
 - Calculate transmission time = File size in bytes / Transmission rate
 
-2. 
+2. Program Design
 
+- Declare fileSize, transmissionRate, transmissionTime variables 
+
+- Input fileSize in MB 
+
+- Convert fileSize to bytes 
+
+- Set transRate value 
+
+- Calculate transmissionTime = fileSize / transmissionRate 
+
+- Print transmissionTime result 
+
+- End
