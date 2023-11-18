@@ -11,4 +11,15 @@ write a program to calculate an employee's gross and net salary based on hours w
     Calculate net salary = Gross salary - Tax - Pension
     Outputs: Employee name, Gross salary, Net    salary, Bonus amount
 
-2. 
+2. Program Design
+-Define TAX_RATE and PENSION_RATE
+
+- variable declaration for name, weeklyHours, bonusRate, baseSalary, grossSalary, netSalary, bonus, tax, pension
+
+- Input and read name,weeklyHours,bonusRate, baseSalary
+
+- Calculate bonus, grossSalary, tax, pension, netSalary
+
+- Print name, grossSalary, netSalary, bonus
+
+- End
