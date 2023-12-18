@@ -1,6 +1,6 @@
 Step 1: Start
 
- 2: Initialize variables Test, Quiz, Project, Assignment, Final, and Total as float
+ 2: Initialize variables float Test, Quiz, Project, Assignment, Final, and Total 
 
  3: Prompt the user to enter Test result out of 15%
 
@@ -12,26 +12,26 @@ Step 1: Start
 
  7: Repeat steps 3-6 for Quiz, Project, Assignment, and Final results
 
- 8: Calculate Total as the sum of Test, Quiz, Project, Assignment, and Final
+ 8: Calculate Total = Test + Quiz + Project + Assignment + Final 
 
- 9: Check the conditions for different Total ranges
+ 9: Check 
 
- 10: If Total is greater than or equal to 90, print "A+"
+  If Total is greater than or equal to 90, print "A+"
 
- 11: If Total is greater than or equal to 80, print "A"
+  If Total is greater than or equal to 80, print "A"
 
- 12: If Total is greater than or equal to 75, print "B+"
+  If Total is greater than or equal to 75, print "B+"
 
- 13: If Total is greater than or equal to 60, print "B"
+  If Total is greater than or equal to 60, print "B"
 
- 14: If Total is greater than or equal to 55, print "C+"
+  If Total is greater than or equal to 55, print "C+"
 
- 15: If Total is greater than or equal to 45, print "C"
+  If Total is greater than or equal to 45, print "C"
 
- 16: If Total is greater than or equal to 30, print "D"
+  If Total is greater than or equal to 30, print "D"
 
- 17: If Total is less than 30, print "F"
+  If Total is less than 30, print "F"
 
- 18: Print Total
+ 10: Print Total
 
- 19: End 
+ 11: End 
