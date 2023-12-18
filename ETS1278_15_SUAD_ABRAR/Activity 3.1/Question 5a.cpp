@@ -14,6 +14,6 @@ temp = num % 10;
     reverse = (reverse * 10) + temp;
     num = num / 10;
 }
-cout<<reverse;
+cout<<"reversed number= "<<reverse;
 return 0;
 } 
