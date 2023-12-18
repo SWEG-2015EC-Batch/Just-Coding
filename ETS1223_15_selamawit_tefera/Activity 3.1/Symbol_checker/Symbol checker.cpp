@@ -6,7 +6,7 @@ int main()
 {
  char ch;
  cout<<"symbol checker"<<endl;
- cout<<"please enter any character: ";
+ cout<<"please enter any one character: ";
  cin>>ch;
  
  if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')){
