@@ -16,21 +16,21 @@ Step 1: Start
 
  9: Check 
 
-   If Total is greater than or equal to 90, print "A+"
+   -If Total is greater than or equal to 90, print "A+"
 
-   If Total is greater than or equal to 80, print "A"
+   -If Total is greater than or equal to 80, print "A"
 
-   If Total is greater than or equal to 75, print "B+"
+   -If Total is greater than or equal to 75, print "B+"
 
-   If Total is greater than or equal to 60, print "B"
+   -If Total is greater than or equal to 60, print "B"
 
-   If Total is greater than or equal to 55, print "C+"
+   -If Total is greater than or equal to 55, print "C+"
 
-   If Total is greater than or equal to 45, print "C"
+   -If Total is greater than or equal to 45, print "C"
 
-   If Total is greater than or equal to 30, print "D"
+   -If Total is greater than or equal to 30, print "D"
 
-   If Total is less than 30, print "F"
+   -If Total is less than 30, print "F"
 
  10: Print Total
 
