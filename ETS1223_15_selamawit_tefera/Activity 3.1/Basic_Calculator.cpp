@@ -24,7 +24,7 @@ int main()
 		       if(num2!=0)
 		       {cout<<"their factor is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<num1/num2<<endl;break;
 			   }
-			   else 
+else 
 			   {cout<<"error division by zero";
 			   }
 		       
@@ -33,7 +33,7 @@ int main()
 		  isnum1int=((int)num1==num1);
 		  isnum2int=((int)num2==num2);
 		  
-		  if(isnum1int && isnum2int)
+if(isnum1int && isnum2int)
 		  
 		  { 
 		  cout<<"their remainder is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<(int)num1%(int)num2<<endl;break;
