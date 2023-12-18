@@ -4,13 +4,13 @@ step 1. start
 
 3. use if-else statements to check the type of character entered:
 
-    a. If the character is a lowercase letter (between 'a' and 'z'), use the islower() and display "it is a lower case letter"
+       - If the character is a lowercase letter (between 'a' and 'z'), use the islower() and display "it is a lower case letter"
 
-    b. If the character is an uppercase letter (between 'A' and 'Z'), use the isupper()and display "it is an upper case letter"
+       - If the character is an uppercase letter (between 'A' and 'Z'), use the isupper()and display "it is an upper case letter"
 
-    c. If the character is a digit (between '0' and '9'), check if the character is even or odd by  modulo (%). If the remainder is 0, display "it is an even number" else, display "it is an odd number"
+       - If the character is a digit (between '0' and '9'), check if the character is even or odd by  modulo (%). If the remainder is 0, display "it is an even number" else, display "it is an odd number"
 
-    d. If none of the above are true, assume it is a special character and display "it is a special character"
+       - If none of the above are true, assume it is a special character and display "it is a special character"
 
 5. end
 
