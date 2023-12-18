@@ -20,22 +20,22 @@ Step 1: Start
 
  11: Print "Body Mass Index(BMI) of user is " followed by the value of BMI and gender
 
- 12: Check the conditions for different BMI ranges and gender
+ 12: Check 
 
- 13: If BMI > 30, print "obesity"
+  If BMI > 30, print "obesity"
 
- 14: If gender is 'F' and BMI < 18.5, print "under weight"
+  If gender is 'F' and BMI < 18.5, print "under weight"
 
- 15: If gender is 'F' and BMI >= 18.5 and BMI < 24, print "normal weight"
+  If gender is 'F' and BMI >= 18.5 and BMI < 24, print "normal weight"
 
- 16: If gender is 'F' and BMI >= 24 and BMI < 30, print "over weight"
+  If gender is 'F' and BMI >= 24 and BMI < 30, print "over weight"
 
- 17: If gender is 'M' and BMI < 20.5, print "under weight"
+  If gender is 'M' and BMI < 20.5, print "under weight"
 
- 18: If gender is 'M' and BMI >= 20.5 and BMI < 25, print "normal weight"
+  If gender is 'M' and BMI >= 20.5 and BMI < 25, print "normal weight"
 
- 19: If gender is 'M' and BMI >= 25 and BMI < 30, print "over weight"
+  If gender is 'M' and BMI >= 25 and BMI < 30, print "over weight"
 
- 20: If none of the above conditions match, print "obesity"
+  If none of the above conditions match, print "obesity"
 
- 21: End 
+ 13: End 
