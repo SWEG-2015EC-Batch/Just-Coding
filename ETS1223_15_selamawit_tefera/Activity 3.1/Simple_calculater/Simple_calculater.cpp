@@ -21,12 +21,12 @@ int main()
 		 case '+': cout<<"their sum is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<num1+num2<<endl;break;
 		 case '*':cout<<"their multiple is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<num1*num2<<endl;break;
 		 case '/': 
-		       if(num2!=0)
-		       {cout<<"their factor is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<num1/num2<<endl;break;
-			   }
-			   else 
-			   {cout<<"error division by zero";
-			   }
+	 if(num2!=0)
+	{cout<<"their factor is:"<<num1<<" "<<operation<<" "<<num2<<" = "<<num1/num2<<endl;break;
+	 }
+	else 
+	{cout<<"error division by zero";
+         }
 		       
 		 case '%' :
 		 bool isnum1int, isnum2int;
