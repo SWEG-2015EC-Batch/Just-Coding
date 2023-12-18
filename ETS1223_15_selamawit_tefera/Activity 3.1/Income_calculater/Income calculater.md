@@ -18,7 +18,7 @@ Step 1: Start
 
 10: Calculate overtime_payment = (worked_hrs - 40) * overtime_bonus_rate
 
-11: Check If gross_salary <=200, set income_tax to 0
+11: Check If gross_salary <=200, set income_tax = 0
 
     - If gross_salary >200 and <=600, calculate income_tax as gross_salary * 0.1
 
