@@ -16,31 +16,31 @@ step 1. Start
 
 9. For each case:
      
-     - Case 1: reverseNumber(num) and display the result
+       - Case 1: reverseNumber(num) and display the result
     
-     - Case 2: countDigits(num) and display the result
+       - Case 2: countDigits(num) and display the result
      
-     - Case 3: sumOfDigits(num) and display the result
+       - Case 3: sumOfDigits(num) and display the result
      
-     - Case 4: productOfEvenDigits(num) and display the result
+       - Case 4: productOfEvenDigits(num) and display the result
      
-     - Case 5: printFirstAndLastDigit(num) 
+       - Case 5: printFirstAndLastDigit(num) 
     
-     - Case 6: swapFirstAndLastDigit(num) and display the result
+       - Case 6: swapFirstAndLastDigit(num) and display the result
      
-     - Case 7: isPalindrome(num) and display the result
+       - Case 7: isPalindrome(num) and display the result
      
-     - Case 8: findDigitFrequency(num) 
+       - Case 8: findDigitFrequency(num) 
     
-     - Case 9: isArmstrong(num) and display the result
+       - Case 9: isArmstrong(num) and display the result
     
-     - Case 10: isStrong(num) and display the result
+       - Case 10: isStrong(num) and display the result
      
-     - Case 11: isPerfect(num) and display the result
+       - Case 11: isPerfect(num) and display the result
      
-     - Case 0: Display "Exiting the program..."
+       - Case 0: Display "Exiting the program..."
      
-     - Default: Display "Invalid choice. Please try again."
+       - Default: Display "Invalid choice. Please try again."
 
 10. End the switch statement
 
