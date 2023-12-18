@@ -20,15 +20,15 @@ Step 1: Start
 
 11: Check If gross_salary <=200, set income_tax to 0
 
-If gross_salary >200 and <=600, calculate income_tax as gross_salary * 0.1
+ - If gross_salary >200 and <=600, calculate income_tax as gross_salary * 0.1
 
-If gross_salary > 600 and <= 1200, calculate income_tax as gross_salary * 0.15
+ - If gross_salary > 600 and <= 1200, calculate income_tax as gross_salary * 0.15
 
-If gross_salary > 1200 and <= 2000, calculate income_tax as gross_salary * 0.2
+ - If gross_salary > 1200 and <= 2000, calculate income_tax as gross_salary * 0.2
 
-If gross_salary > 2000 and < 3500, calculate income_tax as gross_salary * 0.25
+ - If gross_salary > 2000 and < 3500, calculate income_tax as gross_salary * 0.25
 
-If gross_salary >= 3500, calculate income_tax as gross_salary * 0.3
+ - If gross_salary >= 3500, calculate income_tax as gross_salary * 0.3
 
 12: Calculate net_salary = (gross_salary - pension - income_tax) + overtime_payment
 
