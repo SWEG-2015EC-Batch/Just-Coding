@@ -1,6 +1,6 @@
 Step 1: Start
 
- 2: Initialize variables weight, height, BMI as float and gender as char
+ 2: Initialize variables float weight, height, BMI  and char gender 
 
  3: Start a loop to repeat the process
 
@@ -16,7 +16,7 @@ Step 1: Start
 
  9: Read gender
 
- 10: Calculate BMI as weight / (height * height)
+ 10: Calculate BMI = weight / (height * height)
 
  11: Print "Body Mass Index(BMI) of user is " followed by the value of BMI and gender
 
