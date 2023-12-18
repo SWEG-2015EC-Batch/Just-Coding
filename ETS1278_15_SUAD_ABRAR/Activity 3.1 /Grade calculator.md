@@ -16,7 +16,7 @@ Step 1: Start
 
  9: Check 
 
-   -If Total is greater than or equal to 90, print "A+"
+    -If Total is greater than or equal to 90, print "A+"
 
    -If Total is greater than or equal to 80, print "A"
 
