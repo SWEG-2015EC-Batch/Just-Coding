@@ -22,9 +22,9 @@ Step 1: Start
 
  12: Check 
 
-  If BMI > 30, print "obesity"
+    - If BMI > 30, print "obesity"
 
-  If gender is 'F' and BMI < 18.5, print "under weight"
+    -If gender is 'F' and BMI < 18.5, print "under weight"
 
   If gender is 'F' and BMI >= 18.5 and BMI < 24, print "normal weight"
 
