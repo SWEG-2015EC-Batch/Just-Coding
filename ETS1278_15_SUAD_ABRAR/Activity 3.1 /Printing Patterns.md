@@ -1,19 +1,23 @@
 Step 1. Start
-2. Initialize variables 'choice', 'Chara', 'n', 'm', 'width', and 'length'
-3. Display the menu options for pattern selection
-4. Prompt the user to enter their choice and store it in 'choice'
+
+2. Declare variables: choice, Chara, n, m, width, length
+
+3. Display menu options to choose a pattern
+
+4. Prompt the user to enter their choice and 
+
 5. Start a switch statement based on 'choice'
+
 6. For each case:
-   - Case 'A' or 'a':
-     - Prompt the user to enter the initial number, final number, width, and length
-     - Use a nested loop to print numbers in a rectangular pattern based on the given inputs
-   - Case 'B' or 'b':
-     - Prompt the user to enter the length and width of the pattern
-     - Use nested loops to print stars in a rectangular pattern based on the given inputs
-   - Case 'C' or 'c':
-     - Prompt the user to enter the number of rows and columns
-     - Use nested loops to print a hollow rectangular star pattern based on the given inputs
-   - ... (Repeat the process for each pattern)
-7. End the switch statement
-8. End the program
-9. End
+
+     - Case 'A' or 'a': Prompt the user to enter the initial number, final number, width, and length of the pattern. Use a nested for loop to display the numbers in a rectangle pattern.
+     
+     - Case 'B' or 'b': Prompt the user to enter the length and width of the pattern. Use a nested for loop to display stars in a rectangle pattern.
+     
+     - Case 'C' or 'c': Prompt the user to enter the number of rows and columns. Use a nested for loop to display a hollow rectangular star pattern.
+     
+     - Cases for other pattern options: Prompt the user to enter the necessary dimensions and use nested for loops to display the desired patterns.
+     
+     - Default: Display an error message for invalid choices.
+
+7. End 
