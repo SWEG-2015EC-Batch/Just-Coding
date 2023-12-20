@@ -1,45 +1,39 @@
-//mean and standard deviation calculator
+ //mean and standard deviation calculator
 #include<iostream>
 #include<math.h>
 using namespace std;
 
 int main(){
 
-     int count;
-cout<<"how many numbers do you want to add: "<<endl;
+                int count;
+
+        cout<<"how many numbers do you want to add: "<<endl;
                 cin>>count;
 
-        float num[i], sum, mean, standard_Deviation,   
-    variance=0.0;
-        int i;
+        float number, sum,mean,standard_Deviation, variance,sum_Squared;
 
-  for(i=0; i<count; i++){
+                for(int i=0; i<count; i++){
 
-   cout<<"enter number"<<i+1<<":";
+                cout<<"enter number"<<i+1<<":";
 
-    cin>>num;
+                cin>>number;
+
+                sum=sum+number;
+
+                sum_Squared+=number*number;
                 }
-                
-   for(i=0; i<count; i++){
 
-   sum+= num[i];
-                
-   cout<<"sum= "<<sum+<<endl;
+                cout<<"sum= "<<sum<<endl;
 
-   mean=sum/i;
+                mean=sum/count;
 
-   variance+=pow(num[i]-mean,2);
+                variance=(sum_Squared/count)-(mean*mean);
 
-  variance=variance/i;
+                standard_Deviation=sqrt(variance);
 
- standard_Deviation=sqrt(variance);
+                cout<<"the mean is:"<<mean<<endl;
 
-  cout<<"the mean is:"<<mean<<endl;
-
- cout<<"the standard deviation is: "<<standard_Deviation<<endl;         
-                }               
+                cout<<"the standard deviation is: "<<standard_Deviation<<endl;                        
 
                 return 0;
         }
-
-	
