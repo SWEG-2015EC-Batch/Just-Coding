@@ -1,0 +1,212 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int reverseNumber(int num) {
+    int reverse = 0;
+    while (num != 0) {
+        reverse = (reverse * 10) + (num % 10);
+        num /= 10;
+    }
+    return reverse;
+}
+
+int countDigits(int num) {
+    int count = 0;
+    while (num != 0) {
+        num /= 10;
+        count++;
+    }
+    return count;
+}
+
+int sumOfDigits(int num) {
+    int sum = 0;
+    while (num != 0) {
+        sum += num % 10;
+        num /= 10;
+    }
+    return sum;
+}
+
+int productOfEvenDigits(int num) {
+    int product = 1;
+    while (num != 0) {
+        int digit = num % 10;
+        if (digit % 2 == 0) {
+            product *= digit;
+        }
+        num /= 10;
+    }
+    return product;
+}
+
+void printFirstAndLastDigit(int num) {
+    int lastDigit = num % 10;
+    int firstDigit;
+    while (num != 0) {
+        firstDigit = num % 10;
+        num /= 10;
+    }
+    cout << "First digit: " << firstDigit << endl;
+    cout << "Last digit: " << lastDigit << endl;
+    cout << "Sum: " << firstDigit + lastDigit << endl;
+}
+
+int swapFirstAndLastDigit(int num) {
+    int lastDigit = num % 10;
+    int firstDigit;
+    int temp = num;
+    int numDigits = countDigits(num);
+    int power = pow(10, numDigits - 1);
+
+    firstDigit = temp / power;
+    temp %= power;
+    temp /= 10;
+    temp = (temp * 10) + lastDigit;
+    temp = (temp * power) + firstDigit;
+    return temp;
+}
+
+bool isPalindrome(int num) {
+    int reverse = reverseNumber(num);
+    return (num == reverse);
+}
+
+void findDigitFrequency(int num) {
+    int frequency[10] = {0};
+    while (num != 0) {
+        int digit = num % 10;
+        frequency[digit]++;
+        num /= 10;
+    }
+    cout << "Digit\tFrequency" << endl;
+    for (int i = 0; i < 10; i++) {
+        if (frequency[i] > 0) {
+            cout << i << "\t" << frequency[i] << endl;
+        }
+    }
+}
+
+bool isArmstrong(int num) {
+    int originalNum = num;
+    int sum = 0;
+    while (num != 0) {
+        int digit = num % 10;
+        sum += pow(digit, 3);
+        num /= 10;
+    }
+    return (originalNum == sum);
+}
+
+bool isStrong(int num) {
+    int originalNum = num;
+    int sum = 0;
+    while (num != 0) {
+        int digit = num % 10;
+        int fact = 1;
+        for (int i = 1; i <= digit; i++) {
+            fact *= i;
+        }
+        sum += fact;
+        num /= 10;
+    }
+    return (originalNum == sum);
+}
+
+bool isPerfect(int num) {
+    int sum = 0;
+    for (int i = 1; i <= num / 2; i++) {
+        if (num % i == 0) {
+            sum += i;
+        }
+    }
+    return (sum == num);
+}
+
+int main() {
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    int choice;
+    do {
+        cout << "\nMenu:\n";
+        cout << "1. Print reverse of the number\n";
+        cout << "2. Count the number of digits\n";
+        cout << "3. Find the sum of the digits\n";
+        cout << "4. Find the product of even digits\n";
+        cout << "5. Print the first and last digit and their sum\n";
+        cout << "6. Swap the first and last digit\n";
+        cout << "7. Check if the number is palindrome\n";
+        cout << "8. Find the frequency of each digit\n";
+        cout << "9. Check if the number is Armstrong\n";
+        cout << "10. Check if the number is Strong\n";
+        cout << "11. Check if the number is Perfect\n";
+        cout << "0. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Reverse of the number: " << reverseNumber(num) << endl;
+                break;
+            case 2:
+                cout << "Number of digits: " << countDigits(num) << endl;
+                break;
+            case 3:
+                cout << "Sum of digits: " << sumOfDigits(num) << endl;
+                break;
+            case 4:
+cout << "Product of even digits: " << productOfEvenDigits(num) << endl;
+                break;
+            case 5:
+                printFirstAndLastDigit(num);
+                break;
+            case 6:
+                num = swapFirstAndLastDigit(num);
+                cout << "Number after swapping first and last digit: " << num << endl;
+                break;
+            case 7:
+                if (isPalindrome(num)) {
+                    cout << "The number is a palindrome." << endl;
+                } else {
+                    cout << "The number is not a palindrome." << endl;
+                }
+                break;
+            case 8:
+                findDigitFrequency(num);
+                break;
+            case 9:
+                if (isArmstrong(num)) {
+                    cout << "The number is an Armstrong number." << endl;
+                } else {
+                    cout << "The number is not an Armstrong number." << endl;
+                }
+                break;
+            case 10:
+                if (isStrong(num)) {
+                    cout << "The number is a Strong number." << endl;
+                } else {
+                    cout << "The number is not a Strong number." << endl;
+                }
+                break;
+            case 11:
+                if (isPerfect(num)) {
+                    cout << "The number is a Perfect number." << endl;
+                } else {
+                    cout << "The number is not a Perfect number." << endl;
+                }
+                break;
+            case 0:
+                cout << "Exiting the program..." << endl;
+                break;
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+                break;
+        }
+
+    } while (choice != 0);
+
+    return 0;
+} 

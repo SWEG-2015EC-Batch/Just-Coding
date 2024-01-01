@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float Test, Quiz, Project, Assignment, Final, Total;
+
+    Total= Test+Quiz+Project+Assignment+Final;
+    cout<<"Please Enter Your Test Result out of 15%"<<endl;
+    cin>>Test;
+    if (Test<0 || Test>15)
+    {
+        cout<<"Invalid Mark"<<endl<<"Please Enter a valid mark";
+        cin>>Test;
+    }
+
+    cout<<"Please Enter Your Quiz Result out of 5%"<<endl;
+    cin>>Quiz;
+    if (Quiz<0 || Quiz>5)
+    {
+        cout<<"Invalid Mark"<<endl<<"Please Enter a valid mark";
+        cin>>Quiz;
+    }
+
+    cout<<"Please Enter Your Project Result out of 20%"<<endl;
+    cin>>Project;
+    if (Project<0 || Project>20)
+    {
+        cout<<"Invalid Mark"<<endl<<"Please Enter a valid mark";
+        cin>>Project;
+    }
+
+    cout<<"Please Enter Your Assignment Result out of 10%"<<endl;
+    cin>>Assignment;
+    if (Assignment<0 || Assignment>10)
+    {
+        cout<<"Invalid Mark"<<endl<<"Please Enter a valid mark";
+        cin>>Assignment;
+    }
+
+    cout<<"Please Enter Your Final Result out of 50%"<<endl;
+    cin>>Final;
+    if (Final<0 || Final>50)
+    {
+        cout<<"Invalid Mark"<<endl<<"Please Enter a valid mark";
+        cin>>Final;
+    }
+Total= Test+Quiz+Project+Assignment+Final;
+ if(Total>=90){
+cout<<"A+"<<endl;
+ } else if(Total>=80){
+cout<<"A"<<endl;
+ } else if(Total>=75){
+cout<<"B+"<<endl;
+ } else if(Total>=60){
+cout<<"B"<<endl;
+ } else if(Total>=55){
+cout<<"C+"<<endl;
+ } else if(Total>=45){
+cout<<"C"<<endl;
+ } else if(Total>=30){
+cout<<"D"<<endl;
+ } else if(Total<30){
+cout<<"F"<<endl;
+ }
+ cout<<"Your Total is = "<<Total<<endl;
+ return 0;
+
+} 
