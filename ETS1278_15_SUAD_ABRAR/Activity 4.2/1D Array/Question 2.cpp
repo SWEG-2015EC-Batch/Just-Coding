@@ -1,4 +1,4 @@
-//A Program to display user number and their average
+//A Program to display number taken from user and their average
 #include<iostream>
 using namespace std;
 
