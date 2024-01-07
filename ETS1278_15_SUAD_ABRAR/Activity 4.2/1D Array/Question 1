@@ -1,7 +1,5 @@
  //A Program to declare a 4-by-5 array of integers
-
 #include<iostream>
-
 using namespace std;
 
   int main(){
