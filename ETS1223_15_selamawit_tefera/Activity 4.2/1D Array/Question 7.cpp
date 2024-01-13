@@ -13,8 +13,7 @@ int main()
   for (int j = 0;j < n;j++)
     cin >> nums[j];
 
-  cout << "*********" << endl;
-  cout << "Even numbers in reverse order are :" << endl;
+  cout << "Even numbers in reverse order :" << endl;
 
   for (int i = n - 1;i >= 0;--i)
   {
