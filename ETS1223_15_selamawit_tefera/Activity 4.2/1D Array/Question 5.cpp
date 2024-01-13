@@ -1,37 +1,12 @@
-//A program that print score level with the mark
-#include<iostream>
+#include <iostream>
 using namespace std;
-
-  int main(){
-
-     int n;
-    cout<< "Enter the number of students: ";
-    cin>>n;
-
-    float score[n];
-    string scoreLevel[n];
-
-    for(int i=0; i<n; i++) {
-        cout<<"Enter the total mark of student"<<i+1<<": ";
-        cin>>score[i];
-
-        if(score[i] >= 80) {
-            scoreLevel[i] = "Excellent";
-        } else if (score[i] >= 60) {
-            scoreLevel[i] = "Very Good";
-        } else if (score[i] >= 50) {
-            scoreLevel[i] = "Fair";
-        } else if (score[i] >= 40) {
-            scoreLevel[i] = "Poor";
-        } else {
-            scoreLevel[i] = "Fail";
-        }
+int main()
+{
+  float volts[9] = { 11.95,16.32,12.15,8.22,15.98,26.22, 13.54,6.45,17.59 };
+  for (int i = 0; i < 9; i++) {
+    cout << volts[i] << "\t\t";
+    if ((i + 1) % 3 == 0) {
+      cout << endl;
     }
-
-    cout<<"SCORE\t\tSCORE LEVEL"<<endl;
-    for(int i=0; i<n; i++) {
-        cout<<score[i]<<"\t\t"<<scoreLevel[i]<<endl;
-    }
-
-    return 0;
+  }
 }
