@@ -4,7 +4,6 @@ using namespace std;
 
  int main(){
 
-     int array1 , array2;
      int row1 , row2;
 
     cout<<"Enter the number of row1: ";
