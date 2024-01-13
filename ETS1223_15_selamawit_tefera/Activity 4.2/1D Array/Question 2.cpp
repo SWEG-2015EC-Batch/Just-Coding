@@ -2,6 +2,8 @@
 #include<iostream>
 using namespace std;
 
+int main(){
+
  int temp [8];
      int number;
      float average;
