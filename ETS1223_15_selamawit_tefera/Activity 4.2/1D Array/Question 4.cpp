@@ -1,18 +1,54 @@
-//A Program to display values in three column in table form 
+//A Program to print resulting data elements in table form
 #include<iostream>
 using namespace std;
 
-  int main(){
+int main() {
+    int row, column;
 
-    float volt[] = {11.95, 16.32, 12.15, 8.22, 15.98, 26.22, 13.54, 6.45, 17.59};
+    cout << "Enter the number of rows: ";
+    cin >> row;
+    cout << "Enter the number of columns: ";
+    cin >> column;
 
-     cout<<"data entered in a three column table:"<<endl;
-       for(int i=0; i<9; i+=3){
-        for(int j=i; j<i+3; j++){
+     if (row == column) {
 
-        cout<<volt[j]<<"\t";
-  }
-    cout<<endl;
-  }
-  return 0;
-  }
+    int first[row][column];
+    int second[row][column];
+    int result[row][column];
+
+    cout << "\nEnter elements for the first array: " << endl;
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < column; j++) {
+            cout << "Enter element[" << i << "][" << j << "]: ";
+            cin >> first[i][j];
+        }
+    }
+
+    cout << "\nEnter elements for the second array: " << endl;
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < column; j++) {
+            cout << "Enter element[" << i << "][" << j << "]: ";
+            cin >> second[i][j];
+        }
+    }
+
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < column; j++) {
+            result[i][j] = first[i][j] + second[i][j];
+        }
+    }
+
+       cout << "\nResulting data elements:" << endl;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                cout << result[i][j] << " ";
+            }
+            cout << endl;
+        }
+    } else {
+
+        cout << "Invalid input. Please input equivalent rows and columns in order to get a result. " << endl;
+    }
+
+    return 0;
+}
