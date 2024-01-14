@@ -12,11 +12,11 @@ int main()
 
   if (strcmp(pass, your_pass)==0)
   {
-    cout << "Correcr passwrd ";
+    cout << "The password you entered is Correct ";
   }
   else
   {
-    cout << "Incorrect password ";
+    cout << "The password you entered is Incorrect ";
   }
 
 }
