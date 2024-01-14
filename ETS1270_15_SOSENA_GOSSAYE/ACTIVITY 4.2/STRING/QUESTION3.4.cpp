@@ -17,6 +17,7 @@ int main(){
 	while(iss>>token)
 	{
 		cout<<token<<endl;
-    return 0;
 	}
+return 0;
+}
 	
