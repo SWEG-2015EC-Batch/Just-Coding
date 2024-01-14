@@ -4,10 +4,10 @@ int main(){
 	int temp[8], total=0, average;
  for(int i=0; i<8; i++)
  {
-		cout<<"please enter number"<<i+1<<endl;
-		cin>>temp[i];
+	cout<<"please enter number"<<i+1<<endl;
+	cin>>temp[i];
 		
-		total=total+temp[i];
+	total=total+temp[i];
 	average= total/8;
 		
 	}
