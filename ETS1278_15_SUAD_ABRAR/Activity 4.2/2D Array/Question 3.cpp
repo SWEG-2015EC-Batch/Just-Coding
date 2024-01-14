@@ -1,4 +1,4 @@
-//A Program 
+//A Program to print score level of students with total mark in tabular format
 #include<iostream>
 using namespace std;
 
