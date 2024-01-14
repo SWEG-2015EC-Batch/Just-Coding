@@ -6,9 +6,9 @@ using namespace std;
 
      int row1 , row2;
 
-    cout<<"Enter the number of row1: ";
+    cout<<"Please enter the number of row1: ";
     cin >> row1;
-    cout<<"Enter the number of row2: ";
+    cout<<"Please enter the number of row2: ";
     cin >> row2;
 
     if(row1 == row2){
