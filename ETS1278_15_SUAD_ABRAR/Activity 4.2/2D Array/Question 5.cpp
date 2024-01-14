@@ -1,3 +1,5 @@
+// A Program to counts how many pairs of friends are represented
+in an array
 #include <iostream>
 using namespace std;
 
