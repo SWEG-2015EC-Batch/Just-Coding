@@ -23,10 +23,10 @@ int main(){
         
     }
 
-    cout<< "The number of vowels: "<<vowels<<endl;
-    cout<< "The number of consonants: "<<consonants<<endl;
-    cout<< "The number of digits: "<<digits<<endl;
-    cout<< "The number of special Characters: "<<specialChar<<endl;
+    cout<< "The number of vowels is: "<<vowels<<endl;
+    cout<< "The number of consonants is: "<<consonants<<endl;
+    cout<< "The number of digits is: "<<digits<<endl;
+    cout<< "The number of special Characters is: "<<specialChar<<endl;
     
     return 0;
 }
