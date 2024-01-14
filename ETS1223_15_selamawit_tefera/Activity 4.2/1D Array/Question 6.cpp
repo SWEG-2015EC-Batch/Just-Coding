@@ -5,14 +5,14 @@ using namespace std;
   int main(){
 
      int n;
-    cout<< "Enter the number of students: ";
+    cout<< "please enter the number of students: ";
     cin>>n;
 
     float score[n];
     string scoreLevel[n];
 
     for(int i=0; i<n; i++) {
-        cout<<"Enter the total mark of student"<<i+1<<": ";
+        cout<<"Please enter the total mark of student"<<i+1<<": ";
         cin>>score[i];
 
         if(score[i] >= 80) {
@@ -28,7 +28,7 @@ using namespace std;
         }
     }
 
-    cout<<"SCORE\t\tSCORE LEVEL"<<endl;
+    cout<<"SCORE\t\tSCORE STATUS LEVEL"<<endl;
     for(int i=0; i<n; i++) {
         cout<<score[i]<<"\t\t"<<scoreLevel[i]<<endl;
     }
