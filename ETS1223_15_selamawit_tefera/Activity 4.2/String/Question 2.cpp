@@ -7,7 +7,7 @@ int main()
 {
 
   string word;
-  cout << "Enter your word ";
+  cout << "Please enter your word ";
   getline(cin,word);
   string reverse_word;
 
