@@ -1,3 +1,4 @@
+//This program check if a word is palindrome
 #include<iostream>
 #include<string>
 using namespace std;
