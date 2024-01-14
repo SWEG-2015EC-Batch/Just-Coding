@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     int row, column;
 
-    cout << "Enter the number of rows: ";
+    cout << "Please enter the number of rows: ";
     cin >> row;
-    cout << "Enter the number of columns: ";
+    cout << "Please enter the number of columns: ";
     cin >> column;
 
      if (row == column) {
@@ -16,18 +16,18 @@ int main() {
     int second[row][column];
     int result[row][column];
 
-    cout << "\nEnter elements for the first array: " << endl;
+    cout << "\nPlease enter elements for the first array: " << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < column; j++) {
-            cout << "Enter element[" << i << "][" << j << "]: ";
+            cout << "Please enter element[" << i << "][" << j << "]: ";
             cin >> first[i][j];
         }
     }
 
-    cout << "\nEnter elements for the second array: " << endl;
+    cout << "\nPlease enter elements for the second array: " << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < column; j++) {
-            cout << "Enter element[" << i << "][" << j << "]: ";
+            cout << "Please enter element[" << i << "][" << j << "]: ";
             cin >> second[i][j];
         }
     }
@@ -38,7 +38,7 @@ int main() {
         }
     }
 
-       cout << "\nResulting data elements:" << endl;
+       cout << "\nResult of data elements:" << endl;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 cout << result[i][j] << " ";
