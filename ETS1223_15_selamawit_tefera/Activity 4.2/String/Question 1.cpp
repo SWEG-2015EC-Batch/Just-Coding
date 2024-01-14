@@ -6,7 +6,7 @@ int main(){
     char text[300];
     int vowels = 0, consonants = 0;
 
-    cout<<"Enter a string: ";
+    cout<<"Please enter a string: ";
     cin.getline (text,300);
 
     for (int i = 0; text[i] != '\0' ; i++){
