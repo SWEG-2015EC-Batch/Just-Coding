@@ -6,14 +6,14 @@ int main() {
     double balance[5] = { 1000.0, 2.0, 3.4, 17.0, 50.0 };
     int arr[3][4] = { { 10, 11, 12, 13 }, { 20, 21, 22, 23 }, { 30, 31, 32, 33 } };
 
-    cout << "Addresses of elements" << endl;
+    cout << "Address of elements" << endl;
 
     for (int i = 0; i < 5; ++i)
     {
         cout << "Address of " << balance[i] << " = " << balance + i << endl;
 
     }
-    cout << "Address of elements in arr " << endl;;
+    cout << "Address of elements in array " << endl;;
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 4; ++j) {
             cout << *(arr + i) + j << "\t";
@@ -22,7 +22,7 @@ int main() {
     }
 
     cout << " Elements of array" << endl;
-    cout << "Using the its pointer " << endl;
+    cout << "Using pointer " << endl;
 
     for (int i = 0; i < 5; ++i) {
         cout << *(balance + i) << "\t";
