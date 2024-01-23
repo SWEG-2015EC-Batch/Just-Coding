@@ -34,7 +34,8 @@ int main() {
             }
         }
     }
-
+cout<<"______________Results are__________________"<<endl;
+cout<<"Name"<<"\t"<<"Height"<<"\t"<<"Weight"<<"\t"<<"BMI"<<endl; 
     for (int i = 0; i < numb; i++) {
         cout << name[i]<<"\t";
         for (int j = 0; j < 3; j++) {
