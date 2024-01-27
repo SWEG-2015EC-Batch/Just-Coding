@@ -1,46 +1,62 @@
-PseudoCode
+Step 1. Start
 
-Step 1: Include necessary header files and define constants
+Step 2. Display a welcome message.
 
-Step 2: Define the main function
+Step 3. Set the precision for floating-point output to 2.
 
-Step 3: Input course names and credit hours
+Step 3. Prompt the user to enter the number of courses.
 
-Step 4: Input the number of students
+Step 4. Check if the number of courses exceeds the maximum limit. If it does, display an error message and end the program.
 
-Step 5: Check if the number of students exceeds the maximum limit
+Step 5. Create arrays to store the names of the courses and their credit hours.
 
-Step 6: Input student information and calculate CGPA
+Step 6. Prompt the user to enter the name and credit hours for each course, and store them in the respective arrays.
 
-Step 6.1: Inner loop - Input total marks for each course and calculate grade points
+Step 7. Prompt the user to enter the number of students.
 
-Step 6.2: Calculate average mark out of 100 for the student
+Step 8. Check if the number of students exceeds the maximum limit. If it does, display an error message and end the program.
 
-Step 6.3: Calculate CGPA for the student
+Step 9. Create arrays to store the student IDs, CGPAs, and average marks.
 
-Step 7: Display Students' Mark Sheet
+Step 10. Prompt the user to enter the ID for each student, and store them in the studentIDs array.
 
-Step 7.1: Display header
+Step 11. Use nested loops to iterate over each student and each course.
 
-Step 7.2: Display student information
+Step 12. Prompt the user to enter the total marks for each course for each student, and store them in the totalMarksForCourse array.
 
-Step 7.2.1: Display student ID
+Step 13. Calculate the grade point for each course based on the total marks, and store the grade letter in the gradeLetter array.
 
-Step 7.2.2: Display total marks, grade letters, average marks, and CGPA
+Step 14. Calculate the total grade points and credit hours for each student.
 
-Step 8: Additional functionality for HOD(Head of Department)
+Step 15. Calculate the average mark out of 100 for each student.
 
-Step 8.1: Search for a specific student
+Step 16. Calculate the CGPA for each student.
 
-Step 8.1.1: Display student information if found
+Step 17. Display the CGPA, average mark, and grade letter for each student.
 
-Step 8.1.2: Display an error message if not found
+Step 18. Prompt the user to enter their choice (1 or 2) for additional functionality.
+  
+Step 19. Store the user's choice in a variable called hodOption.
 
-Step 8.2: See top five ranked students
+Step 20. Use a switch statement to perform different actions based on the user's choice:
 
-Step 8.2.1: Display information for the top five ranked students
+Step 21. (Switch)Case 1: Search for a specific student.
 
-Step 8.2.1.1: Display information for each of the top five ranked students
-
-Step 8 (contd.): Handle default case
+     - Prompt the user to enter the student ID to search for.
+     
+     - Iterate through the studentIDs array to find a matching student ID.
+     
+     - If a match is found, display the student's information (student ID, course names, total marks, grade letter, average marks, and CGPA).
+     
+     - If no match is found, display a message indicating that the student was not found.   
+     
+     Case 2: See top five ranked students.
+     
+     - Sort the students based on CGPA in descending order using a bubble sort algorithm.
+     
+     - Display the information of the top five ranked students (student ID, average marks, and CGPA).
+     
+   - Default: Display an error message indicating that an invalid option was chosen.
+     
+Step 22. End 
 
